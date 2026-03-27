@@ -117,7 +117,7 @@ The z-index value determines the vertical stacking order of overlapping elements
 
     b. How does absolute positioning depend on its parent element?
 
-    
+    It moves based on the position of the nearest 
 
     c. How do you differentiate sticky from fixed (you can research on sticky)?
 
