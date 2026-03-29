@@ -117,8 +117,12 @@ The z-index value determines the vertical stacking order of overlapping elements
 
     b. How does absolute positioning depend on its parent element?
 
-    It moves based on the position of the nearest 
+    It moves relative to the position of the nearest parent element, and is removed from the normal document flow.
 
     c. How do you differentiate sticky from fixed (you can research on sticky)?
 
+    Fixed locks an element to the browser window, while sticky locks an element to the browser window until it hits the boundaries another parent element.
+
     d. If you were designing a webpage for a school event, how might you use positioning to highlight important information? Please give concrete examples.
+
+   To highlight important information on a school event webpage, I would use fixed to keep the register button on the navbar even as users scroll through the page. Absolute can be used to overlay sold out badges directly onto event images to create immediate urgency onto the people going through the page. Lastly, I could use z-index to layer text over images. 
